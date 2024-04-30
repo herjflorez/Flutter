@@ -1,4 +1,10 @@
 {
     "@@locale": "en",
-    "helloWorld": "Hello World"
+    "helloWorld": "Hello World",
+    "tittle": "Lists",
+    "price": "price",
+    "departure": "departure",
+    "country": "Country",
+    "cities": "Cities",
+    "shopings": "Shoping"
 }

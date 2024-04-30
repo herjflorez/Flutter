@@ -2,16 +2,14 @@
 
 import 'dart:ui' as ui;
 
+
 final defaultLocale = ui.window.locale.languageCode;
-final defaultLanguage = "ES";
+const defaultLanguage = "ES";
 
 
 String get defaultDeviceLanguage {
   String defLocale = defaultLocale;
-  if(defaultLanguage != null){
-    defLocale += '_$defaultLanguage';
-  }
-  print(defaultLanguage);
-  print(defaultLocale);
+  defLocale += '_$defaultLanguage';
+
   return defLocale;
 }

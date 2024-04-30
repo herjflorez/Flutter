@@ -15,5 +15,15 @@ List<City> ciudades = [
   ];
 
 List<Viaje> viajes = [
-  Viaje(tag: "Viaje1" ,destino: "Lima, Peru", precio: 68.00, fecha: DateTime.now(), state: false)
+  Viaje(tag: "Viaje1" ,destino: "Lima, Peru", precio: 68.00, fecha: DateTime.now()),
+  Viaje(tag: "Viaje2" ,destino: "Barcelona, España", precio: 68.00, fecha: DateTime(2024,3,18,10,15)),
+  Viaje(tag: "Viaje3" ,destino: "Sydney, Australia", precio: 68.00, fecha: DateTime(2024,3,18,10,15)),
+  Viaje(tag: "Viaje4" ,destino: "Rio de Janeiro, Brasil", precio: 68.00, fecha: DateTime(2024,3,18,10,15)),
+  Viaje(tag: "Viaje5" ,destino: "Londres, Reino Unido", precio: 68.00, fecha: DateTime(2024,3,18,10,15)),
+  Viaje(tag: "Viaje6" ,destino: "Tokio, Japón", precio: 68.00, fecha: DateTime(2024,3,18,10,15)),
+  Viaje(tag: "Viaje7" ,destino: "Nueva York, Estados Unidos", precio: 68.00, fecha: DateTime(2024,3,18,10,15)),
+  Viaje(tag: "Viaje8" ,destino: "París, Francia", precio: 68.00, fecha: DateTime(2024,3,18,10,15)),
+  Viaje(tag: "Viaje9" ,destino: "Roma, Italia", precio: 68.00, fecha: DateTime(2024,3,18,10,15)),
+  Viaje(tag: "Viaje10" ,destino: "Dubái, Emiratos Árabes Unidos", precio: 68.00, fecha: DateTime(2024,3,18,10,15))
+
 ];

@@ -37,7 +37,7 @@ class _ListPageState extends State<ListPage> {
       selected1 = Theme.of(context).primaryColor;
       selected2 = Colors.transparent;
     } else{
-      vista = Compras();
+      vista = const Compras();
       selected1 = Colors.transparent;
       selected2 = Theme.of(context).primaryColor;
     }
@@ -45,7 +45,7 @@ class _ListPageState extends State<ListPage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).primaryColor,
-        title: Text(contentView.helloWorld),
+        title: Text(contentView.tittle),
         actions: languageSelector(context),
       ),
       drawer: Drawer(
@@ -58,14 +58,14 @@ class _ListPageState extends State<ListPage> {
             Container(
               color: selected1,
               child: ListTile(
-                title: const Text("Ciudades"),
+                title: Text(contentView.cities),
                 onTap: () => cambiarVista(1),
               ),
             ),
             Container(
               color: selected2,
               child: ListTile(
-                title: const Text("Compras"),
+                title: Text(contentView.shopings),
                 onTap: () => cambiarVista(2),
               ),
             )

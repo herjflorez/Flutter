@@ -23,8 +23,8 @@ class MyAppState extends State {
   Locale get locale => _locale;
 
   final _supportedLocales = const [
-    Locale('es'),
-    Locale('en'),
+    Locale('es','ES'),
+    Locale('en','US'),
   ];
 
   @override
@@ -37,6 +37,7 @@ class MyAppState extends State {
   void changeLanguage(Locale locale){
     setState(() {
       _locale = locale;
+      Intl.defaultLocale = locale.toString();
     });
   }
 

@@ -1,4 +1,10 @@
 {
     "@@locale": "es",
-    "helloWorld": "Hola Mundo"
+    "helloWorld": "Hola Mundo",
+    "tittle": "Listas",
+    "price": "precio",
+    "departure": "Salida",
+    "country": "Pais",
+    "cities": "Ciudades",
+    "shopings": "Compras"
 }
